@@ -6,9 +6,7 @@
 #
 default: &default
   #デバック用
-  adapter: sqlite3  
-  #heroku用
-  #adapter: pg
+  adapter: sqlite3
   pool: 5
   timeout: 5000
 
